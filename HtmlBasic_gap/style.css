@@ -1,0 +1,16 @@
+.test-parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .test-child {
+    width: 180px;
+    height: 180px;
+    background: blue;
+    color: white;
+    font-size: 3em;
+  }
+  .test-parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 10px;
+  }
